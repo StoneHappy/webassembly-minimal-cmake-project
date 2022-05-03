@@ -5,6 +5,14 @@ emscripten minimal cmake project
 [emscripten document](https://emscripten.org/docs/getting_started/downloads.html)
 
 ## Build with cmake
+```bash
+cd webassembly-minimal-cmake-project
+
+mkdir build
+
+cd build
+```
+
 ### Windows
 Emscripten only support mingw32-make build toolchain,please install [mingw](https://github.com/mstorsjo/llvm-mingw) before
 ```bash
